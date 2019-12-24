@@ -21,21 +21,21 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
   host: <%= ENV['DB_HOST'] || Rails.application.credentials.fetch(:db_host) { "localhost" } %>
-  username: <%= ENV['DB_USERNAME'] || Rails.application.credentials.fetch(:db_username) { "rails-graphql-bootstrap" } %>
-  password: <%= ENV['DB_PASSWORD'] || Rails.application.credentials.fetch(:db_password) { "rails-graphql-bootstrap" } %>
+  username: <%= ENV['DB_USERNAME'] || Rails.application.credentials.fetch(:db_username) { "tag-rails-graphql" } %>
+  password: <%= ENV['DB_PASSWORD'] || Rails.application.credentials.fetch(:db_password) { "tag-rails-graphql" } %>
 
 development:
   <<: *default
-  database: rails-graphql-bootstrap_development
+  database: tag-rails-graphql_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  # username: rails-graphql-bootstrap
+  # username: tag-rails-graphql
 
   # The password associated with the postgres role (username).
-  # password: rails-graphql-bootstrap
+  # password: tag-rails-graphql
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -60,9 +60,9 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: rails-graphql-bootstrap_test
-  # username: rails-graphql-bootstrap
-  # password: rails-graphql-bootstrap
+  database: tag-rails-graphql_test
+  # username: tag-rails-graphql
+  # password: tag-rails-graphql
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -85,6 +85,6 @@ test:
 #
 production:
   <<: *default
-  database: rails-graphql-bootstrap_production
-  # username: rails-graphql-bootstrap
+  database: tag-rails-graphql_production
+  # username: tag-rails-graphql
   # password: <%= ENV['RAILS_GRAPHQL_BOOTSTRAP_DATABASE_PASSWORD'] %>

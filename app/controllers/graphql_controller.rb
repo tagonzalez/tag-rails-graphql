@@ -9,7 +9,7 @@ class GraphqlController < ApplicationController
       # Query context goes here, for example:
       # current_user: current_user,
     }
-    result = RailsGraphqlBootstrapSchema.execute(
+    result = TagRailsGraphqlSchema.execute(
       query, variables: variables, context: context, operation_name: operation_name
     )
     render json: result

@@ -5,7 +5,7 @@ If you don't want to install everything in your computer you can opt to run your
 Install [Docker Compose](https://docs.docker.com/compose/install/) and then run:
 
 ```bash
-git clone https://github.com/Wolox/rails-graphql-bootstrap.git
+git clone https://github.com/Wolox/tag-rails-graphql.git
 docker-compose up
 ```
 

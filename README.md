@@ -1,7 +1,7 @@
-RailsGraphqlBootstrap
+TagRailsGraphql
 ===============
 
-Kickoff for Rails web applications.
+
 
 ## Running local server
 
@@ -18,8 +18,8 @@ You can skip the hook by adding `--no-verify` to your `git push`.
 
 ### 1- Installing Ruby
 
-- Clone the repository by running `git clone git@github.com:Wolox/rails-graphql-bootstrap.git`
-- Go to the project root by running `cd rails-graphql-bootstrap`
+- Clone the repository by running `git clone git@github.com:Wolox/tag-rails-graphql.git`
+- Go to the project root by running `cd tag-rails-graphql`
 - Download and install Rbenv and Ruby-Build as instructed by [GoRails guide](https://gorails.com/setup).
 - Install the appropriate Ruby version by running `rbenv install`.
 
@@ -55,7 +55,7 @@ Run in terminal:
 
 ```bash
 sudo -u postgres psql
-CREATE ROLE "rails-graphql-bootstrap" LOGIN CREATEDB PASSWORD 'rails-graphql-bootstrap';
+CREATE ROLE "tag-rails-graphql" LOGIN CREATEDB PASSWORD 'tag-rails-graphql';
 ```
 
 Log out from postgres and run:
@@ -152,27 +152,3 @@ You can find more documentation in the [docs](docs) folder. The documentation av
 This project is maintained by [Wolox](https://github.com/wolox) and it is written by [Wolox](http://www.wolox.com.ar).
 
 ![Wolox](https://raw.githubusercontent.com/Wolox/press-kit/master/logos/logo_banner.png)
-
-## License
-
-**rails-graphql-bootstrap** is available under the MIT [license](LICENSE).
-
-    Copyright (c) 2019 X <X@wolox.com.ar>
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-    THE SOFTWARE.

@@ -302,7 +302,7 @@ en:
   application:
     index:
       messages:
-        welcome: Welcome to RailsGraphqlBootstrap
+        welcome: Welcome to TagRailsGraphql
     messages:
       alerts:
         user_not_authorized: You are not authorized to carry out this action
@@ -315,7 +315,7 @@ es:
   application:
     index:
       messages:
-        welcome: Bienvenido a RailsGraphqlBootstrap
+        welcome: Bienvenido a TagRailsGraphql
     messages:
       alerts:
         user_not_authorized: No está autorizado para realizar esta acción

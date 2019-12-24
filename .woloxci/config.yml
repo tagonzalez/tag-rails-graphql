@@ -1,6 +1,6 @@
 config:
   dockerfile: .woloxci/Dockerfile
-  project_name: rails-graphql-bootstrap
+  project_name: tag-rails-graphql
 
 services:
   - postgres
