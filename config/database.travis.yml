@@ -1,0 +1,6 @@
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: tag-rails-graphql_test
+  username: tag-rails-graphql
+  password: tag-rails-graphql
