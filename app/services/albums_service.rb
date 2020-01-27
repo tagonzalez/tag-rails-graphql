@@ -16,7 +16,7 @@ class AlbumsService
   private
 
   def parse_album(response)
-    response.parsed_response
+    response.parsed_response.transform_keys
   end
 
   def parse_photos(response)
