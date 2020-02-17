@@ -2,7 +2,7 @@ module Types
   class QueryType < Types::BaseObject
     field :album, AlbumType, null: false do
       description 'Find a user by id'
-      argument :id, String, required: true
+      argument :id, ID, required: true
     end
 
     def album(params)
